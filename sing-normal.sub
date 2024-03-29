@@ -30,5 +30,5 @@
 module load singularity
 
 # Count for training time
-time singularity exec --nv -B /raid /raid/sif/pytorch-23.06.sif python mnist-train1.py 
+singularity exec --nv -B /raid /raid/sif/pytorch-23.06.sif python mnist-train1.py 
 
